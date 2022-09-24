@@ -9,4 +9,5 @@ Operadores de comparação
 != diferente (valor) *********
 !== diferente estrito (valor e tipo)
 */
-console.log(10 > 5);
+const comp = 9 <= 9;
+console.log(comp);
