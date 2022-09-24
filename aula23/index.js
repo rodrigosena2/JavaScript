@@ -10,4 +10,11 @@ null / undefined
 NaN
 
 */
-console.log('Luiz' && 'Maria');
+
+function falaOi () {
+    return 'Oi';
+}
+
+let vaiExecutar = undefined;
+
+console.log(vaiExecutar && falaOi());
