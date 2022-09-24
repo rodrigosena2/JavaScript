@@ -1,6 +1,6 @@
 /* 
 && -> Todas as expressôes precisam ser verdadeiras para dar true -> false && true -> false " o valor mesmo" 
-|| -> Apenas uma expressão precisa ser verdadeira para dar true -> 
+|| -> Apenas uma expressão precisa ser verdadeira para dar true -> true || false -> vai retornar "o valor verdadeiro"
 
 FALSY
 false
@@ -10,11 +10,4 @@ null / undefined
 NaN
 
 */
-
-function falaOi () {
-    return 'Oi';
-}
-
-let vaiExecutar = undefined;
-
-console.log(vaiExecutar && falaOi());
+console.log(0 || false || null | 'Rodrigo Sena' || true);
