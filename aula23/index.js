@@ -10,4 +10,10 @@ null / undefined
 NaN
 
 */
-console.log(0 || false || null | 'Rodrigo Sena' || true);
+const a = 0;
+const b = null;
+const c = false; // Aqui
+const d = false;
+const e = NaN;
+
+console.log( a || b || c || d || e);
