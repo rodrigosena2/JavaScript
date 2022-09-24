@@ -4,8 +4,9 @@ Operadores de comparação
 >= maior que ou igual a
 < menor que
 <= menor que ou igual a
-== igualdade 
-=== igualdade estrita
-!= diferente
-!== diferente estrito
+== igualdade (valor) *********
+=== igualdade estrita (valor e tipo)
+!= diferente (valor) *********
+!== diferente estrito (valor e tipo)
 */
+console.log(10 > 5);
