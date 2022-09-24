@@ -5,5 +5,5 @@ zz -> OR -> OU
 ! -> NOT -> NÃO
 */
 // const expressaoAnd = true && true && true && true;
-const expressaoOr = true || false;
+const expressaoOr = false || false;
 console.log(expressaoOr);
