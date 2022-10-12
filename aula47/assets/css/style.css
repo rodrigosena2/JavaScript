@@ -45,21 +45,21 @@ body {
 }
 
 .iniciar {
-    border-radius: 10px;
+    border-radius: 50px;
     width: 120px;
     height: 42px;
     margin: 20px;
 }
 
 .pausar {
-    border-radius: 10px;
+    border-radius: 50px;
     width: 120px;
     height: 42px;
     margin: 20px;
 }
 
 .zerar {
-    border-radius: 10px;
+    border-radius: 50px;
     width: 120px;
     height: 42px;
     margin: 20px;
