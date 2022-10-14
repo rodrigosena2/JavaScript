@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     /*background: var(--primary-color); */
-    background-image: linear-gradient(to bottom, #45214A, #323050, #21445B);
+    background-image: linear-gradient(to left, #45214A, #323050, #21445B);
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
@@ -31,6 +31,7 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 60px;
+    box-shadow: 1px 1px 7px black;
     
 }
 
@@ -41,7 +42,7 @@ body {
     margin: auto;
     border-radius: 30px;
     height: 80px;
-    border: 2px solid rgba(0, 0, 0, 0.653);
+    border: 3px solid rgba(0, 0, 0, 0.611);
 }
 
 .iniciar {
