@@ -57,5 +57,5 @@ const nomeTerminaComA = pessoas.filter(obj => {
      return obj.nome.toLowerCase().endsWith('a')
 });
 console.log(pessoasComNomeGrande);
-console.log(pessoasComMaisDeCiquentaAnos)
-console.log(nomeTerminaComA)
+console.log(pessoasComMaisDeCiquentaAnos);
+console.log(nomeTerminaComA);
