@@ -18,14 +18,7 @@ console.log(p2);
 
 
 
-
-
-
-
-
-
-
-
+  
 
 // Factory function
 /*
