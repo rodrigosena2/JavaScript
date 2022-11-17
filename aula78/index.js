@@ -43,7 +43,7 @@ CC.prototype.sacar = function (valor) {
     this.verSaldo();
 };
 
-function CP(agencia, conta, saldo, limite) {
+function CP(agencia, conta, saldo) {
     Conta.call(this, agencia, conta, saldo);
 }
 CP.prototype = Object.create(Conta.prototype);
