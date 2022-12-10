@@ -46,7 +46,7 @@ async function executa() {
         console.log(fase2);
 
         const fase3 = await esperaAi('Fase 3', rand());
-         console.log(fase3);
+        console.log(fase3);
 
         console.log('Terminamos na fase:', fase3);  
 
